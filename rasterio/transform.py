@@ -212,10 +212,10 @@ def rowcol(transform, xs, ys, op=math.floor, precision=None):
 
     Returns
     -------
-    rows : list of ints
-        list of row indices
-    cols : list of ints
-        list of column indices
+    rows : list or int
+        row indices
+    cols : list or int
+        column indices
     """
 
     single_x = False
